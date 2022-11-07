@@ -1115,6 +1115,10 @@ ul{list-style: none;}
     padding: 20px;
     resize: none;
   }
+  @media (max-width:767px){
+    .info-sender .form form input{margin-left: 0;}
+    .info-sender .form form textarea{width: 100%;}
+  }
 
   .info-sender .form form  input[type="submit"]{
     padding: 20px;
